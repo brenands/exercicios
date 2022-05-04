@@ -2,6 +2,7 @@ def somar(num1, num2):
     soma = num1 + num2
     return soma
 
+
 def subtrair(num1, num2):
     if num1 > num2:
         subtracao = num1 - num2
@@ -10,14 +11,17 @@ def subtrair(num1, num2):
         subtracao = num2 - num1
         return subtracao
 
+
 def multiplicar(num1, num2):
     multiplicacao = num1 * num2
     return multiplicacao
+
 
 def dividir(num1, num2):
     if num2 != 0:
         divisao = num1 / num2
         return divisao
+
 
 print('Digite (1) para soma de entre dois números.')
 print('Digite (2) para subtração entre dois números.')
