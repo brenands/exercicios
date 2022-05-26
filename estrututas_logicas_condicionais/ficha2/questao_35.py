@@ -12,10 +12,9 @@ dia = int(data[0])
 mes = int(data[1])
 ano = int(data[2])
 
-
 if ano > 0:
     if mes <= 12:
-        if mes == 1 == 3 == 5 == 7 == 8 == 10 == 12:
+        if mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:
             if dia > 31:
                 print('Data incorreta.')
         elif mes == 2:
@@ -32,4 +31,3 @@ if ano > 0:
         print('Data incorreta.')
 else:
     print('Data incorreta.')
-
